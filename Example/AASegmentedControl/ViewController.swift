@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         segmentControl.font = UIFont(name: "Chalkduster", size: 14.0)!
         segmentControl.selectedIndex = 1
         segmentControl.addTarget(self,
-                                 action: #selector(ViewController.segmentValueChanged(_:)),
+                                 action: #selector(segmentValueChanged(_:)),
                                  for: .valueChanged)
     }
     
